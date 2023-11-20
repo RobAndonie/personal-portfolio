@@ -1,3 +1,4 @@
+import { Link } from 'react-scroll';
 import Tag from '../components/Tag';
 import stuffIEnjoy from '../data/stuffIEnjoy';
 
@@ -27,11 +28,13 @@ function Hero() {
           </div>
         </div>
         <div className="flex justify-center">
-          <button className="flex rounded-full border border-white p-2 px-3 text-white">
-            <span className="material-symbols-outlined text-2xl">
-              arrow_downward
-            </span>
-          </button>
+          <Link to="projects" smooth={true} duration={500}>
+            <button className="flex rounded-full border border-white p-2 px-3 text-white">
+              <span className="material-symbols-outlined text-2xl">
+                arrow_downward
+              </span>
+            </button>
+          </Link>
         </div>
       </div>
     </div>

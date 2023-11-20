@@ -12,16 +12,16 @@ const featuredProjects = [
     title: 'Personality Test App',
     platform: 'Mobile',
     description:
-      'Experienced Swift, SwiftUI, UIKit, and Xcode. Also familiar with Kotlin, Java, and AndroidStudio.',
+      'Experienced in Swift, UIKit, and Xcode. Also familiar with Kotlin, Java, and AndroidStudio.',
     image: fproject1,
   },
 ];
 
-function FProject() {
+function FProjects() {
   return (
     <div>
-      {featuredProjects.map((project) => (
-        <div className="mb-6 flex flex-row">
+      {featuredProjects.map((project, index) => (
+        <div key={index} className="mb-6 flex flex-row">
           <div className="flex w-2/5 flex-col border p-4">
             <div className="flex flex-row items-center gap-4">
               {project.platform === 'Web' ? (
@@ -68,4 +68,4 @@ function FProject() {
   );
 }
 
-export default FProject;
+export default FProjects;

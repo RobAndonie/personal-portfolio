@@ -1,20 +1,27 @@
 import './App.css';
-import NavigationBar from './sections/NavigationBar';
-import Hero from './sections/Hero';
+import { Element } from 'react-scroll';
+import Home from './sections/Home';
 import Projects from './sections/Projects';
-import heroBackground from './assets/heroBackground.jpg';
+import Experience from './sections/Experience';
+import Footer from './sections/Footer';
+import ContactBar from './components/ContactBar';
 
 function App() {
   return (
     <div className="bg-background">
-      <div
-        className="bg-cover"
-        style={{ backgroundImage: `url(${heroBackground})` }}
-      >
-        <NavigationBar />
-        <Hero />
-      </div>
-      <Projects />
+      <Element name="home" className="section">
+        <Home />
+      </Element>
+      <Element name="projects" className="section">
+        <Projects />
+      </Element>
+      <Element name="experience" className="section">
+        <Experience />
+      </Element>
+      <Element name="contact" className="section">
+        <Footer />
+      </Element>
+      <ContactBar />
     </div>
   );
 }
