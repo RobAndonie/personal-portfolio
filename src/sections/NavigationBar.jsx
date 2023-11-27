@@ -2,7 +2,7 @@ import NavItem from '../components/NavItem';
 
 function NavigationBar() {
   return (
-    <div className="flex justify-center gap-16 py-16">
+    <div className="hidden justify-center gap-16 pt-16 md:flex">
       <NavItem text={'<My Work/>'} to={'projects'} />
       <NavItem text={'<Experience/>'} to={'experience'} />
     </div>

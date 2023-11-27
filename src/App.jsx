@@ -1,6 +1,6 @@
 import './App.css';
 import { Element } from 'react-scroll';
-import Home from './sections/Home';
+import Hero from './sections/Hero';
 import Projects from './sections/Projects';
 import Experience from './sections/Experience';
 import Footer from './sections/Footer';
@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="bg-background">
       <Element name="home" className="section">
-        <Home />
+        <Hero />
       </Element>
       <Element name="projects" className="section">
         <Projects />

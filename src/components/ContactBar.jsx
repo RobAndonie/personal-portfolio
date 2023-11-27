@@ -5,7 +5,7 @@ import { IoMail } from 'react-icons/io5';
 
 function ContactBar() {
   return (
-    <div className="fixed bottom-0 left-8 text-3xl text-[#A89F91]">
+    <div className="fixed bottom-0 left-2 text-3xl text-[#A89F91] lg:left-8">
       <a href="https://github.com/RobAndonie" className="block p-3">
         <IoLogoGithub />
       </a>

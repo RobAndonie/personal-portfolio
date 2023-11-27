@@ -4,14 +4,16 @@ import heroBackground from '../assets/heroBackground.jpg';
 
 function Home() {
   return (
-    <div
-      className="h-screen bg-cover"
-      style={{
-        backgroundImage: `url(${heroBackground})`,
-      }}
-    >
-      <NavigationBar />
-      <Hero />
+    <div>
+      <div
+        className="bg-cover bg-center"
+        style={{
+          backgroundImage: `url(${heroBackground})`,
+        }}
+      >
+        <NavigationBar />
+        <Hero />
+      </div>
     </div>
   );
 }

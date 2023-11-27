@@ -36,7 +36,13 @@ const Projects = () => {
               <div className="font-variant-small-caps mb-2 text-xl font-medium text-white">
                 {project.title}
               </div>
-              <p className="text-base text-white">{project.platform}</p>
+              <div>
+                {project.description.map((paragraph, index) => (
+                  <p key={index} className="pb-px text-sm text-[#C0C0C0]">
+                    {paragraph}
+                  </p>
+                ))}
+              </div>
               <div className="flex flex-wrap gap-2 pt-4">
                 {project.tags.map((tag, index) => (
                   <Tag key={index} text={tag} />

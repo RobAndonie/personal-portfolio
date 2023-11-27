@@ -1,23 +1,31 @@
 import { Link } from 'react-scroll';
+import NavigationBar from './NavigationBar';
 import Tag from '../components/Tag';
 import stuffIEnjoy from '../data/stuffIEnjoy';
+import heroBackground from '../assets/heroBackground.jpg';
 
 function Hero() {
   return (
-    <div>
-      <div className="mx-72 pb-20">
-        <div className="pb-44 pt-32">
+    <div
+      className="flex h-screen flex-col bg-cover bg-center"
+      style={{
+        backgroundImage: `url(${heroBackground})`,
+      }}
+    >
+      <NavigationBar />
+      <div className="my-auto px-4 md:px-20 lg:px-60 xl:px-72">
+        <div>
           <div className="mb-6">
-            <h1 className="font-variant-small-caps text-8xl font-bold text-white">
+            <h1 className="font-variant-small-caps text-5xl font-bold text-white md:text-6xl lg:text-7xl xl:text-8xl">
               Roberto Andonie
             </h1>
-            <h2 className="text-2xl font-medium text-lightgray">
+            <h2 className="text-lg font-medium text-lightgray md:text-xl lg:text-2xl">
               Crafting software that goes beyond code - prioritizing users,
               empowering leaders, and upholding values.
             </h2>
           </div>
-          <div>
-            <h3 className="font-variant-small-caps mb-2.5 text-xl font-normal leading-normal text-white">
+          <div className="hidden lg:block">
+            <h3 className="font-variant-small-caps mb-2.5 text-lg font-normal leading-normal text-white md:text-xl">
               Stuff I enjoy
             </h3>
             <div className="flex flex-wrap gap-2">
