@@ -3,16 +3,18 @@ import experience from '../data/experience';
 
 const Experience = () => {
   return (
-    <div className="flex w-full flex-row px-32 pb-10 pt-32 text-white">
-      <h1 className="font-variant-small-caps w-3/5 text-7xl font-bold">
+    <div className="flex flex-col gap-4 px-20 pb-10 pt-32 text-white md:flex-row lg:px-32">
+      <h1 className="font-variant-small-caps text-4xl font-bold md:w-1/2 lg:text-6xl xl:text-7xl">
         Professional Experience
       </h1>
-      <div className="flex w-3/5 flex-col">
+      <div className="flex flex-col md:w-1/2">
         {experience.map((exp, index) => (
           <div key={index} className="mb-6">
-            <div className="flex flex-row justify-between text-base text-[#C0C0C0]">
-              <h4 className="w-2/5">{exp.duration}</h4>
-              <div className="flex w-3/5 flex-col">
+            <div className="flex flex-col justify-between gap-2 text-base text-[#C0C0C0] lg:flex-row">
+              <div className="lg:w-2/5">
+                <h4>{exp.duration}</h4>
+              </div>
+              <div className="flex flex-col lg:w-3/5">
                 <h3 className="font-variant-small-caps font-medium text-white">
                   {exp.position} - {exp.company}
                 </h3>

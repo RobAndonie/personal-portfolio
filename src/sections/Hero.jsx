@@ -13,7 +13,7 @@ function Hero() {
       }}
     >
       <NavigationBar />
-      <div className="flex h-5/6 flex-col justify-around px-20 lg:px-32 xl:px-64">
+      <div className="flex h-5/6 flex-col justify-around px-8 md:px-20 lg:px-32 xl:px-64">
         <div>
           <div className="mb-6">
             <h1 className="font-variant-small-caps text-6xl font-bold text-white md:text-7xl lg:text-8xl">
