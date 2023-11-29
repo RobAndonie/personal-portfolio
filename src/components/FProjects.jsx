@@ -21,30 +21,30 @@ function FProjects() {
   return (
     <div>
       {featuredProjects.map((project, index) => (
-        <div key={index} className="mb-6 flex flex-row">
-          <div className="flex w-2/5 flex-col border p-4">
-            <div className="flex flex-row items-center gap-4">
+        <div key={index} className="flex flex-row lg:mb-6">
+          <div className="w-5/5 flex flex-col border p-4 lg:w-2/5">
+            <div className="flex flex-col items-center gap-4 lg:flex-row">
               {project.platform === 'Web' ? (
-                <span className="material-symbols-outlined text-7xl">
+                <span className="material-symbols-outlined hidden text-5xl md:block">
                   computer
                 </span>
               ) : (
-                <span className="material-symbols-outlined text-7xl">
+                <span className="material-symbols-outlined hidden text-5xl md:block">
                   smartphone
                 </span>
               )}
-              <h2 className="font-variant-small-caps text-3xl font-medium">
+              <h2 className="font-variant-small-caps text-xl font-medium xl:text-2xl">
                 {project.platform + ' Development'}
               </h2>
             </div>
             <div className="font-roboto text-sm">
-              <p>{'<p>'}</p>
-              <p className="pb-1 pl-4">{project.description}</p>
-              <p>{'</p>'}</p>
+              <p className="hidden xl:block">{'<p>'}</p>
+              <p className="pt-1 xl:pb-1 xl:pl-4">{project.description}</p>
+              <p className="hidden xl:block">{'</p>'}</p>
             </div>
           </div>
           <div
-            className="w-3/5 border bg-cover"
+            className="hidden w-0 border bg-cover lg:block lg:w-3/5"
             style={{ backgroundImage: `url(${fproject1})` }}
           >
             <div

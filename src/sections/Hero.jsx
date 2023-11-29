@@ -13,10 +13,10 @@ function Hero() {
       }}
     >
       <NavigationBar />
-      <div className="my-auto px-4 md:px-20 lg:px-60 xl:px-72">
+      <div className="flex h-5/6 flex-col justify-around px-20 lg:px-32 xl:px-64">
         <div>
           <div className="mb-6">
-            <h1 className="font-variant-small-caps text-5xl font-bold text-white md:text-6xl lg:text-7xl xl:text-8xl">
+            <h1 className="font-variant-small-caps text-6xl font-bold text-white md:text-7xl lg:text-8xl">
               Roberto Andonie
             </h1>
             <h2 className="text-lg font-medium text-lightgray md:text-xl lg:text-2xl">
@@ -24,7 +24,7 @@ function Hero() {
               empowering leaders, and upholding values.
             </h2>
           </div>
-          <div className="hidden lg:block">
+          <div className="hidden sm:block">
             <h3 className="font-variant-small-caps mb-2.5 text-lg font-normal leading-normal text-white md:text-xl">
               Stuff I enjoy
             </h3>
