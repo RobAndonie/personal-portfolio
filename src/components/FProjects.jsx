@@ -2,17 +2,17 @@ import fproject1 from '../assets/fproject1.png';
 
 const featuredProjects = [
   {
-    title: 'My Personal Portfolio',
+    title: 'Software Engineering',
     platform: 'Web',
     description:
-      'Experienced in HTML, CSS, JS, TS, React.js, Tailwind CSS, Next.js. Passionate about User Experience, skilled with Figma.',
+      'Experience in Web and Mobile development. Skilled with Front-End technologies like React, Tailwind CSS. Familiar with mobile development in Swift, UIKit, and Xcode.',
     image: fproject1,
   },
   {
-    title: 'Personality Test App',
+    title: 'UX Design',
     platform: 'Mobile',
     description:
-      'Experienced in Swift, UIKit, and Xcode. Also familiar with Kotlin, Java, and AndroidStudio.',
+      'Passionate about User Experience and User Interface design. Proficient in Figma. Experience in designing for Web.',
     image: fproject1,
   },
 ];
@@ -54,9 +54,6 @@ function FProjects() {
                   'linear-gradient(180deg, rgba(28, 28, 28, 0.50) 0%, rgba(28, 28, 28, 0.00) 100%)',
               }}
             >
-              <h2 className="font-variant-small-caps text-xl font-medium">
-                Featured Project
-              </h2>
               <h1 className="font-variant-small-caps text-3xl font-semibold">
                 {project.title}
               </h1>
