@@ -5,8 +5,8 @@ import projects from '../data/projects';
 const Projects = () => {
   return (
     <div className="px-20 pt-32 lg:px-32">
-      <div className="flex flex-col gap-10 text-white md:flex-row">
-        <div className="flex flex-col gap-4 md:w-2/4 lg:w-1/4">
+      <div className="flex flex-col gap-16 text-white md:flex-row">
+        <div className="flex flex-col gap-4 md:w-2/4">
           <h1 className="font-variant-small-caps text-7xl font-bold">
             My Work
           </h1>
@@ -20,7 +20,8 @@ const Projects = () => {
             User Experience remains at the forefront of my work.
           </p>
         </div>
-        <div className="flex flex-col gap-6 md:w-2/4 lg:w-3/4">
+        <div className="border border-white"></div>
+        <div className="flex flex-col gap-6 md:w-2/4">
           <FProjects />
         </div>
       </div>
