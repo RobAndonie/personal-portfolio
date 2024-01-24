@@ -1,5 +1,5 @@
 import FProjects from '../components/FProjects';
-import Tag from '../components/Tag';
+import SmallTag from '../components/SmallTag';
 import projects from '../data/projects';
 
 const Projects = () => {
@@ -38,14 +38,14 @@ const Projects = () => {
               </div>
               <div>
                 {project.description.map((paragraph, index) => (
-                  <p key={index} className="pb-px text-sm text-[#C0C0C0]">
+                  <p key={index} className="pb-2 text-sm text-[#C0C0C0]">
                     {paragraph}
                   </p>
                 ))}
               </div>
               <div className="flex flex-wrap gap-2 pt-4">
                 {project.tags.map((tag, index) => (
-                  <Tag key={index} text={tag} />
+                  <SmallTag key={index} text={tag} />
                 ))}
               </div>
             </div>

@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 function Tag({ text }) {
   return (
-    <span className="rounded-full border border-white px-2.5 py-0.5 text-xs font-light text-white md:text-sm">
+    <span className="text-2xs rounded-full border border-white px-2.5 py-0.5 font-light text-white md:text-sm">
       {text}
     </span>
   );

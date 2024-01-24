@@ -3,6 +3,9 @@
 export default {
   content: ['./index.html', './src/**/*.{js,jsx}'],
   theme: {
+    fontSize: {
+      '2xs': '0.75rem',
+    },
     extend: {
       fontFamily: {
         roboto: ['Roboto Mono', 'sans-serif'],

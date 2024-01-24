@@ -1,4 +1,5 @@
 import project1 from '../assets/fproject1.png';
+import masSanto from '../assets/masSanto.png';
 
 const projects = [
   {
@@ -27,6 +28,26 @@ const projects = [
     source: '',
     visit: '',
     id: 1,
+  },
+  {
+    title: 'Más Santo: Spiritual and Personal Growth Website',
+    description: [
+      'Conducted user research, deploying a survey and empathy mapping.',
+      'Crafted comprehensive user personas, user stories, and journey maps, among other empathy-driven strategies.',
+      'Engineered an engaging user interface by designing wireframes and a high-fidelity prototype in Figma, followed by iterative usability testing.',
+    ],
+    image: masSanto,
+    tags: [
+      'User Research',
+      'Interface & Interaction Design',
+      'Wireframing',
+      'Prototyping',
+      'Usability Testing',
+      'Figma',
+    ],
+    source: '',
+    visit: '',
+    id: 2,
   },
 ];
 
