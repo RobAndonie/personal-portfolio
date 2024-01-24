@@ -2,12 +2,12 @@ const featuredProjects = [
   {
     title: 'Software Engineering',
     description:
-      'Experience in Web development. Proficient with Front and Back End tools like React, Tailwind CSS, MySQL, MongoDB, Node, Express, and other libraries.',
+      'Experienced in Web development. Proficient with Front and Back End tools like React, JavaScript, HTML, CSS, Tailwind CSS, MySQL, MongoDB, Node, Express, and other libraries.',
   },
   {
     title: 'UX Design',
     description:
-      'Passionate about User Experience. Skilled in Wireframing and Prototyping with Figma for Web Design. Familiar with UX Research & Usability Testing.',
+      "Passionate about User Experience. Skilled in Wireframing and Prototyping with Figma for Web Design. Familiar with UX Research & Usability Testing. Working on Google's UX Professional Certificate.",
   },
 ];
 

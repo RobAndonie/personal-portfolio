@@ -11,7 +11,7 @@ const Projects = () => {
             My Work
           </h1>
           <p className="pb-4 font-roboto">
-            From my coding beginnings, I discovered a passion at the
+            From my coding beginnings, I discovered a passion for the
             intersection of Software Engineering and User Experience. As I
             worked on my skills in Web Development, I also found myself drawn to
             the creative process of designing and building digital experiences.
