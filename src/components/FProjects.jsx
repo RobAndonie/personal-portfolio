@@ -3,16 +3,14 @@ import fproject1 from '../assets/fproject1.png';
 const featuredProjects = [
   {
     title: 'Software Engineering',
-    platform: 'Web',
     description:
-      'Experience in Web and Mobile development. Skilled with Front-End technologies like React, Tailwind CSS. Familiar with mobile development in Swift, UIKit, and Xcode.',
+      'Experience in Web development. Proficient with Front and Back End tools like React, Tailwind CSS, MySQL, MongoDB, Node, Express, and other libraries.',
     image: fproject1,
   },
   {
     title: 'UX Design',
-    platform: 'Mobile',
     description:
-      'Passionate about User Experience and User Interface design. Proficient in Figma. Experience in designing for Web.',
+      'Passionate about User Experience. Skilled in Wireframing and Prototyping with Figma for Web Design. Familiar with UX Research & Usability Testing.',
     image: fproject1,
   },
 ];
@@ -24,7 +22,7 @@ function FProjects() {
         <div key={index} className="flex flex-row lg:mb-6">
           <div className="w-5/5 flex flex-col border p-4 lg:w-2/5">
             <div className="flex flex-col items-center gap-4 lg:flex-row">
-              {project.platform === 'Web' ? (
+              {project.title === 'Software Engineering' ? (
                 <span className="material-symbols-outlined hidden text-5xl md:block">
                   computer
                 </span>
@@ -34,7 +32,7 @@ function FProjects() {
                 </span>
               )}
               <h2 className="font-variant-small-caps text-xl font-medium xl:text-2xl">
-                {project.platform + ' Development'}
+                {project.title}
               </h2>
             </div>
             <div className="font-roboto text-sm">

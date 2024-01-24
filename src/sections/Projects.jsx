@@ -1,4 +1,3 @@
-import React from 'react';
 import FProjects from '../components/FProjects';
 import Tag from '../components/Tag';
 import projects from '../data/projects';
