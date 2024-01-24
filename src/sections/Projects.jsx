@@ -11,13 +11,15 @@ const Projects = () => {
             My Work
           </h1>
           <p className="pb-4 font-roboto">
-            I thrive at the intersection of aesthetics and functionality,
-            leveraging Front-End and design tools and technologies like React,
-            Tailwind CSS, and Figma.
+            From my coding beginnings, I discovered a passion at the
+            intersection of Software Engineering and User Experience. As I
+            worked on my skills in Web Development, I also found myself drawn to
+            the creative process of designing and building digital experiences.
           </p>
           <p className="font-roboto">
-            As I embark into the world of native app development, my passion for
-            User Experience remains at the forefront of my work.
+            I have worked on a variety of projects, from personal websites to
+            full-stack applications. I am always looking for new opportunities
+            to learn and grow as a developer and UX designer.
           </p>
         </div>
         <div className="border border-white"></div>

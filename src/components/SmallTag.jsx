@@ -1,15 +1,15 @@
 import PropTypes from 'prop-types';
 
-function Tag({ text }) {
+function SmallTag({ text }) {
   return (
-    <span className="text-2xs rounded-full border border-white px-2.5 py-0.5 font-light text-white md:text-sm">
+    <span className="rounded-full border border-white px-2.5 py-0.5 text-xs font-light text-white">
       {text}
     </span>
   );
 }
 
-Tag.propTypes = {
+SmallTag.propTypes = {
   text: PropTypes.string.isRequired,
 };
 
-export default Tag;
+export default SmallTag;
