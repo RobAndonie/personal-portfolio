@@ -67,7 +67,7 @@ const projects = [
     ],
     source: '',
     visit:
-      'https://www.figma.com/proto/4DtcrK4hJJ08i0vqEcPmly/Desarrollo-de-Software---Sprint-3?type=design&node-id=99-1161&t=cvGUnvpMTmZAPn0W-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=34%3A957&show-proto-sidebar=1&mode=design',
+      'https://www.figma.com/proto/4DtcrK4hJJ08i0vqEcPmly/Desarrollo-de-Software---Sprint-3?type=design&node-id=34-957&t=jooWACiqYfRYCSmU-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=34%3A957&show-proto-sidebar=1&mode=design',
     id: 2,
   },
   {
